@@ -1,0 +1,51 @@
+1. Identifique as entidades presentes no sistema?
+
+- Formando
+- Turma
+- Curso
+
+2. Identifique os atributos de cada entidade.
+
+
+- Formando
+ID 
+Nome 
+N.º de identificação 
+Data de nascimento 
+
+- Turma
+ID 
+Designação da turma 
+Data de criação 
+
+- Curso
+ID 
+Nome 
+Data de início 
+Carga horária
+
+
+3  Identifique os relacionamentos e respetivas cardinalidades.
+
+Turma - Curso: muitos para muitos | Uma turma pode participar em vários cursos e um curso pode ter várias turmas.
+Formando - Turma: Muitos para 1
+Formando - Curso: 1 para muitos
+
+4. Identifique: 
+
+a. Chaves primárias
+IdFormando
+IdTurma
+IdCurso
+
+b. Chaves estrangeiras
+IdCurso na entidade que será criada entre Curso e Turma devido a relação muitos para muitos
+IdTurma na entidade que será criada entre Curso e Turma devido a relação muitos para muitos
+IdTurma na entidade Formando
+IdCurso na entidade Formando
+
+
+
+
+
+
